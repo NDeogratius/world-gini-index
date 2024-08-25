@@ -9,12 +9,12 @@ const svgMap = d3.select("svg.map-background")
 
 // Append the SVG object for the Gini index line chart
 const svgGiniChart = d3.select("#gini-chart")
-    .attr("width", 600)
+    .attr("width", 500)
     .attr("height", 300);
 
 // Append the SVG object for the GDP line chart
 const svgGdpChart = d3.select("#gdp-chart")
-    .attr("width", 600)
+    .attr("width", 500)
     .attr("height", 300);
 
 // Map and projection
